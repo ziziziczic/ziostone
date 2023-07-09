@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>지오석재</title>
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/album.css">
+
+    <!-- 커스터마이징 -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/map.css">
+
+</head>
+<body>
+    <header>
+        <div class="collapse bg_pink" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-white">조달청 나라장터 종합쇼핑몰에서 검색어 "지오석재산업"을 입력하시면 저희 제품을 만나보실수 있습니다.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="../index.html" class="text-white">홈</a></li>
+                  <li><a href="./products.html" class="text-white" target="_self">제품안내</a></li>
+                  <li><a href="./performance.html" class="text-white" target="_self">납품실적</a></li>
+                  <li><a href="./map.html" class="text-white" target="_self">오시는길</a></li>
+                  <li><a href="./history.html" class="text-white" target="_self">회사소개</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg_pink shadow-sm">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>GIO 지오석재산업</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center bg_gray">
+          <div class="container">
+            <h1>오시는 길</h1>
+            <!-- <h1>GIO <span>지오석재산업</span></h1> -->
+            <!-- <p class="lead text-muted">제품안내</p> -->
+            <!-- <p>
+              <a href="#" class="btn btn-primary my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p> -->
+          </div>
+        </section>
+      
+     <!-- 다음지도 -->
+     <div class="container pb_30 ">
+        <div class="map-container grid">
+            <div class="map-wrap">
+                <div class="map-title"><p>본사 : 인천 서구 가정로 307번길 19-12</p></div>
+                <div class="map" id="map1"></div>
+            </div>
+            <div class="map-wrap">
+                <div class="map-title"><p>공장 : 전북 익산 황동면 석재단지길 91-6번지</p></div>
+                <div class="map" id="map2"></div>
+            </div>
+        </div>
+    </div>
+  
+    </main>
+    
+    <!-- 연락처-->
+    <footer id="footer" class="footer mt-auto py-3 bg_black">
+        <div class="container">
+          <span class="text-white"></span>
+        </div>
+    </footer>
+  
+    <!--견적의뢰 바로가기-->
+    <div class="fixed" id="order">
+        <p><a href="#footer">견적의뢰</a></p>
+    </div>
+
+    <!--srcipt-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=711df71c5e69a6430dea0626af933474"></script>
+    <script>
+        // 인천 지도
+        var container1 = document.getElementById('map1'); //지도를 담을 영역의 DOM 레퍼런스
+        var options1 = { //지도를 생성할 때 필요한 기본 옵션
+            center: new kakao.maps.LatLng(37.511784, 126.670239), //지도의 중심좌표.
+            level: 3 //지도의 레벨(확대, 축소 정도)
+        };
+        var map1 = new kakao.maps.Map(container1, options1); //지도 생성 및 객체 리턴
+
+        const marker1 = new kakao.maps.Marker({
+            position: new kakao.maps.LatLng(37.511784, 126.670239)  // 위도, 경도 입력
+        })
+        marker1.setMap(map1)
+
+        // 익산지도
+        var container2 = document.getElementById('map2'); //지도를 담을 영역의 DOM 레퍼런스
+        var options2 = { //지도를 생성할 때 필요한 기본 옵션
+            center: new kakao.maps.LatLng(36.023093,126.952798), //지도의 중심좌표.
+            level: 2 //지도의 레벨(확대, 축소 정도)
+        };
+        var map2 = new kakao.maps.Map(container2, options2); //지도 생성 및 객체 리턴
+
+        const marker2 = new kakao.maps.Marker({
+            position: new kakao.maps.LatLng(36.023093,126.952798)  // 위도, 경도 입력
+        })
+        marker2.setMap(map2)
+    </script>
+</body>
+</html>
+
+

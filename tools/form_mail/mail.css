@@ -1,0 +1,37 @@
+<style type="text/css">.broadcast {
+	FONT-SIZE: 7pt; FONT-FAMILY: verdana, 굴림
+}
+.guide {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림, 통신A, 서울; LETTER-SPACING: 0px
+}
+.num {
+	FONT-SIZE: 7pt; FONT-FAMILY: arial
+}
+.text {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림, 통신A, 서울
+}
+A {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림, 통신A, 서울; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0066; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림, 통신A, 서울
+}
+.s {
+	FONT-SIZE: 11px; FONT-FAMILY: arial,san-serif
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 12pt; FONT-FAMILY: 굴림, 통신A, 서울
+}
+.bd {
+	CURSOR: hand
+}
+</style>

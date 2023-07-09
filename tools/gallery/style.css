@@ -1,0 +1,101 @@
+@charset "euc-kr";
+
+a:link {text-decoration:none; color:#666666}
+a:visited {text-decoration:none; color:#666666}
+a:active {text-decoration:none; color:#666666}
+a:hover {text-decoration:underline; color:#993365}
+
+td,tr {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 12px;
+	line-height: 12pt;
+	color: #666666;
+}
+
+.text11pt {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -1px;
+	line-height: 10pt;
+	color: #666666;
+}
+
+.text12pt {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 12px;
+	letter-spacing: -0.5px;
+	line-height: 12pt;
+	color: #669900;
+}
+
+.text11color {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -1px;
+	line-height: 12pt;
+	color: #ff6600;
+}
+
+.text11white {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -1px;
+	line-height: 12pt;
+	color: #ffffff;
+}
+
+.text11black {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -0.5px;
+	line-height: 12pt;
+	color: #333333;
+}
+
+.text11pt05 {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -0.5px;
+	line-height: 10pt;
+	color: #666666;
+}
+
+.text11color05 {
+	font-family: "µ¸¿ò", "±¼¸²";
+	font-size: 11px;
+	letter-spacing: -0.5px;
+	line-height: 12pt;
+	color: #ff6600;
+}
+
+.formstyle1 {
+	background-color:#ffffff;
+	border-color:#cccccc; 
+	font-size: 12px; 
+	color: #333333; 
+	border-style: solid; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px
+}
+
+/**************** Space ****************/
+
+/* ´ë Å¸ÀÌÆ² Space_H30 */
+.space_30 { height:30px;}
+
+/* ´Ü¶ôÀÌ³¡³¯¶§ Space_H25 */
+.space_25 { height:25px;}
+
+/* Áß Å¸ÀÌÆ² Space_H18 */
+.space_18 { height:18px;}
+
+/* ³»¿ë Áß°£°£°Ý Space_H8 */
+.space_12 { height:12px;}
+
+/* ³»¿ë ÀÛÀº°£°Ý Space_H8 */
+.space_8 { height:8px;}
+
+/* ¸¶Áö¸· ¿©¹é Space_H50 */
+.space_50 { height:50px;}

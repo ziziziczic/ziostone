@@ -1,0 +1,69 @@
+BODY
+{
+   scrollbar-face-color: #CCCCCC;
+   scrollbar-shadow-color: #000000;
+   scrollbar-highlight-color: #ffffff;
+   scrollbar-3dlight-color: #FFFFFF;
+   scrollbar-darkshadow-color: #FFFFFF;
+   scrollbar-track-color: #F2F2F2;
+   scrollbar-arrow-color: #909090
+}
+
+TD  {  font-family: "", "u"; font-size: 9pt; line-height: 18px; color: #222222;}
+TH  {  font-family: "", "u"; font-size: 10pt; line-height: 18px; color: #222222;}
+
+a:link { font-family: "", "u"; font-size: 9pt; color: #6C6C6C; text-decoration: none}
+a:visited { font-family: "", "u"; font-size: 9pt; color: #6C6C6C; text-decoration: none}
+a:hover { font-family: "", "u"; font-size: 9pt; color: #24DDDB; text-decoration: none}
+
+.input 
+{  
+	font-size=9pt;
+	font-family=;
+	color:#4e4e4e;
+	background-color:#ffffff
+};
+
+.designer_text {
+	BACKGROUND-COLOR: ffffff;
+	BORDER : #aaaaaa 1px solid;
+	font-family: "tahoma";
+	font-size: 9pt;
+	height:21px;
+}
+.designer_textarea {
+	BACKGROUND-COLOR: ffffff;
+	BORDER: #aaaaaa 1px solid;
+	font-family: "tahoma";
+	font-size: 9pt;
+}
+.designer_select {
+	BACKGROUND-COLOR: ffffff;
+	border: #aaaaaa 1px solid;
+	font-family: "tahoma";
+	font-size:9pt;
+}
+.input1 {
+	BACKGROUND-COLOR: ffffff;
+	BORDER-BOTTOM: #9C9C9C 1px solid;
+	BORDER-LEFT: #9C9C9C 1px solid;
+	BORDER-RIGHT: #9C9C9C 1px solid;
+	BORDER-TOP: #9C9C9C 1px solid;
+	font-family: "";
+	font-size: 9pt;
+	height: 20;
+}
+
+.input_texta {
+	BACKGROUND-COLOR: ffffff;
+	BORDER-BOTTOM: #999999 1px solid;
+	BORDER-LEFT: #999999 1px solid;
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	font-family: "gulim";
+	font-size: 9pt;
+	padding: 5;
+}
+
+.onmouseover { background-color:#F3F3F3; color:#000000;}
+.onmouseout  { background-color:#FFFFFF; color:#000000;}

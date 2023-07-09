@@ -1,0 +1,35 @@
+<style type='text/css'>
+<!--
+FONT {	FONT-FAMILY:  ±¼¸², Gulim,verdana,hevetica; FONT-SIZE: 9pt}
+TD {COLOR: #333333; FONT-FAMILY:  ±¼¸², Gulim,verdana,hevetica; FONT-SIZE: 9pt; IME-MODE: active; line-height:1.7;}
+SELECT {FONT-FAMILY:  ±¼¸², Gulim; FONT-SIZE: 9pt}
+INPUT {COLOR: #333333; FONT-FAMILY: "±¼¸²", "Gulim"; FONT-SIZE: 10pt}
+TEXTAREA {COLOR: #333333; FONT-FAMILY: "±¼¸²"; FONT-SIZE: 9pt}
+A {COLOR: #252525; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A:hover {COLOR: #3399CC; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A.head{COLOR: #0165A9; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A.head:hover {COLOR: #333333; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A.green {COLOR: #252525; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A.green:hover {COLOR: #669900; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+.pdlft10 {padding-left:10}
+.text  {padding-left:10;line-height:1.7; FONT-SIZE: 12px; }
+.verdana  {FONT-SIZE: 11px;FONT-FAMILY:  verdana}
+.tul {  border: 1px #dddddd solid}
+.line150{ line-height:1.7}
+.bdr1{ border:1px solid #BBBBBB;}
+.input01 
+{  
+	background-color:#FAFAFA;  
+	font-family: Gulim;
+	color:#000000;  
+	border:1x solid #BBBBBB; 
+	font-size: 9pt; 
+};
+.inputbox {
+	height:20px; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 10pt; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: ±¼¸²
+};
+.input_textarea {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 10pt; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: ±¼¸²
+};
+//-->
+</style>

@@ -1,0 +1,44 @@
+* {margin:0;padding:0;box-sizing: border-box;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;line-height: 30px;font-family: 'Noto Sans KR', sans-serif; }
+ul,li{list-style: none;}
+img{display: block;border:0;font-size: 0;line-height: 0;margin:0;padding:0;}
+a{text-decoration: none; color:black;}
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+.bg_white{background: #fff;}
+.bg_black{background: #000; color:#fff;}
+.bg_green{background: #e8eadb;}
+.bg_pink{background: #e93a84;}
+.bg_gray{background:rgba(0,0,0,.1)}
+
+.mt_10{margin-top:10px;}
+.mt_30{margin-top:30px;}
+.mb_10{margin-bottom: 10px;}
+.mb_30{margin-bottom: 30px;}
+.pb_30{padding-bottom: 30px;}
+
+.fixed{position:fixed;z-index: 9999;}
+.h_100vh{height:100vh;}
+.h_300{height: 300px;}
+
+#order{right:10px;bottom:10px;}
+#order p{width:100px;height:100px;line-height: 100px;border-radius: 50%;background: #eee;font-size: 16px;font-weight: 700; text-align: center;}
+#order p a{text-decoration: none;color:#000}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* 공통끝 */
+
+.img-wrap{display: flex;justify-content: center;}

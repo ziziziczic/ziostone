@@ -1,0 +1,1 @@
+<script language="javascript" src="http://jiibsite.co.kr/shared/jiibsite_banner.js.php?jiibsite_banner_id=<?echo($site_info[site_id])?>"></script>

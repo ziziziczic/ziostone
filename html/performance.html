@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>지오석재</title>
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/album.css">
+
+    <!-- 커스터마이징 -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/performance.css">
+</head>
+<body>
+    <header>
+        <div class="collapse bg_pink" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-white">조달청 나라장터 종합쇼핑몰에서 검색어 "지오석재산업"을 입력하시면 저희 제품을 만나보실수 있습니다.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="../index.html" class="text-white">홈</a></li>
+                  <li><a href="./products.html" class="text-white" target="_self">제품안내</a></li>
+                  <li><a href="./performance.html" class="text-white" target="_self">납품실적</a></li>
+                  <li><a href="./map.html" class="text-white" target="_self">오시는길</a></li>
+                  <li><a href="./history.html" class="text-white" target="_self">회사소개</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg_pink shadow-sm">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>GIO 지오석재산업</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center bg_gray">
+        <div class="container">
+          <h1>납품실적</h1>
+          <!-- <h1>GIO <span>지오석재산업</span></h1> -->
+          <!-- <p class="lead text-muted">제품안내</p> -->
+          <!-- <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p> -->
+        </div>
+      </section>
+    
+         <!--납품실적-->
+    <div class="container mt_30 mb_30">
+      <div class="performance-title mb_10">
+          <select name="year" id="year">
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+          </select>
+          년
+      </div>
+
+      <div class="performance-wrapper">
+          <table>
+              <thead>
+                  <tr>
+                      <th>납품 년월일</th>
+                      <th>수요기관명</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>2010.04.29</td>
+                      <td>부산 연제구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.04.29</td>
+                      <td>인천 중구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.04.26</td>
+                      <td>인천 계양구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.04.21</td>
+                      <td>인천 남동구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.04.16</td>
+                      <td>인천 부평구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.04.09</td>
+                      <td>대전 서구청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.03.30</td>
+                      <td>인천 강화군</td>
+                  </tr>
+                  <tr>
+                      <td>2010.03.22</td>
+                      <td>인천 경제자유구역청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.03.18</td>
+                      <td>경기 김포시청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.02.01</td>
+                      <td>인천 경제자유구역청</td>
+                  </tr>
+                  <tr>
+                      <td>2010.01.29</td>
+                      <td>인천 부평구청</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+
+    </div>
+
+  </main>
+
+    <!-- 연락처-->
+    <footer id="footer" class="footer mt-auto py-3 bg_black">
+      <div class="container">
+        <span class="text-white"></span>
+      </div>
+    </footer>
+
+    <!--견적의뢰 바로가기-->
+    <div class="fixed" id="order">
+        <p><a href="#footer">견적의뢰</a></p>
+    </div>
+
+    <!--srcipt-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="../js/jquery.slim.min.js"></script> -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <script src="../js/performance.js" defer></script>
+</body>
+</html>

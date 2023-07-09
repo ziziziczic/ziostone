@@ -1,0 +1,85 @@
+BODY {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 20px; text-align: justify; FONT-FAMILY: µ¸¿ò
+	
+	scrollbar-arrow-color:#777888; 
+        scrollbar-base-color:#F7F3EF; 
+        scrollbar-shadow-color:#F7F3EF; 
+        scrollbar-face-color:#EFEFE7; 
+        scrollbar-highlight-color:#F7F3EF; 
+        scrollbar-dark-shadow-color:white; 
+        scrollbar-3d-light-color:#788AB8; 
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 20px; FONT-FAMILY: "µ¸¿ò"}
+
+SELECT {
+        FONT-SIZE: 11px; COLOR: #969696; LINE-HEIGHT: 14px; FONT-FAMILY: µ¸¿ò
+        background-color:D2E1ED; 
+		border-width:3; 
+		border-color:E3E3E3; 
+		border-style:solid; 
+}
+
+TEXTAREA {
+        font-size:10pt; 
+        color:545454; 
+		background-color:ffffff; 
+		border-width:1; 
+		border-color:A3A3A3; 
+		border-style:solid; 
+}
+
+.bold {
+       font-size: 12px; color:#4E4E4E; font-weight: bold; LINE-HEIGHT: 16px; text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+.red {
+       font-size: 12px; color:#FF4200; font-weight: bold; LINE-HEIGHT: 16px; letter-spacing: -1px;text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+.top {
+       font-size: 11px; color:#5B5B5B; font-weight: none; LINE-HEIGHT: 16px; letter-spacing: -1px;text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+.white_b {
+       font-size: 12px; color:#ffffff; font-weight: bold; LINE-HEIGHT: 16px; text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+.white {
+       font-size: 12px; color:#ffffff; font-weight: none; LINE-HEIGHT: 16px; text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+
+.bottom {
+       font-size: 12px; color:#000000; font-weight: none; LINE-HEIGHT: 16px; text-decoration: none;	font-family: "µ¸¿ò";
+}
+
+.designer_login {
+        font-size:8pt; 
+        color:545454; 
+		background-color:ffffff; 
+		border-width:1; 
+		border-color:A3A3A3; 
+		border-style:solid; 
+}
+.designer_login_button {
+        font-size:8pt; 
+        color:545454; 
+		background-color:ffffff; 
+		border-width:0; 
+		border-color:A3A3A3; 
+		border-style:solid; 
+}
+
+.designer_text {
+	BACKGROUND-COLOR: ffffff;
+	BORDER : #aaaaaa 1px solid;
+	font-family: "tahoma";
+	font-size: 9pt;
+	height:20px;
+	}
+
+A:link {COLOR: #5A4E4E; TEXT-DECORATION: none}
+A:visited {COLOR: #5A4E4E; TEXT-DECORATION: none}
+A:active {COLOR: #5A4E4E; TEXT-DECORATION: none}
+A:hover {COLOR: #5A4E4E; TEXT-DECORATION: underline}

@@ -1,0 +1,15 @@
+.performance-title{width:100%;text-align: center; }
+.performance-title select{font-size: 20px;font-weight: 700;}
+
+.performance-wrapper{margin:0px auto; max-width:375px;}
+.performance-wrapper table{width:100%;}
+.performance-wrapper thead tr {width:100%;background: #eee;}
+.performance-wrapper thead tr th {padding: 5px 10px;background: #eee;}
+.performance-wrapper tbody tr td {padding: 5px 10px;}
+
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:1200px){
+
+}
